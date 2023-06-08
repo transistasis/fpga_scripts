@@ -57,7 +57,7 @@ class ParseDut:
       self.raw_parameter_list = self.raw_parameter_list[0].replace( '\n ', '' ).replace( 'parameter ', '' ).strip()
       self.raw_parameter_list = self.raw_parameter_list.split( ',' )
     else:
-      print( 'NOTE: No parameter list was found!\n')
+      print( 'NOTE: No parameter list was found!\n' )
 
     self.raw_parameter_list = self.remove_list_whitespace( self.raw_parameter_list )
 
