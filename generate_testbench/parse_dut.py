@@ -22,8 +22,8 @@ import sys
 
 class ParseDut:
 
-  def __init__( self, dut ):
-    self.dut = open( dut, 'r' )
+  def __init__( self, path_to_dut ):
+    self.dut = open( path_to_dut, 'r' )
     self.dut = str( self.dut.read() )
 
 
